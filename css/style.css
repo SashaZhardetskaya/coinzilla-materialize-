@@ -1,0 +1,368 @@
+@media only screen and (min-width: 993px) {
+	.container {
+    width: 85%;
+}}
+
+* { font-family:'Ubuntu'; }
+
+/*header*/
+header {
+	background: #182740;
+}
+
+.logo {
+	max-height: 24px;
+	margin: 25px 0 0 5px;
+}
+
+ul:not(.browser-default) li {  /*cancel materialize style*/
+    list-style-type: disc;
+}
+
+.navbar-header li {
+	margin: 15px 0 0 25px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.navbar-header a {
+	color: white;
+}
+
+
+.header-button {
+	box-sizing: border-box;
+	width: 140px;
+	height: 42px;
+	margin: 0px 5px 0 7px;
+	border: 1px solid #F7931A;
+	background: transparent;
+	color: white;
+	text-transform: uppercase;
+}
+
+.header-link {
+	margin: 10px 0 0 0;
+}
+
+.header-link a {
+	color: white;
+	text-transform: uppercase;
+}
+
+/*main*/
+main {
+	background: url(../coinzilla/coinzilla-hello.png) no-repeat 8% 3% #182740;
+	background-size: 400px auto;
+}
+
+@media screen and (max-width: 767px) {
+main {
+    background: #182740;
+}}
+
+.heading {
+	margin: 45px 0 70px 0;
+}
+
+.heading__navigation-link, .heading__navigation-slash {
+	color: #5F6E87;
+	font-size: 14px;
+}
+
+.heading__navigation-link.active {
+	color: #F7931A;
+}
+
+.heading h2 {
+	margin: 10px 0 0 0;
+	color: white;
+	font-size: 42px;
+	font-weight: 300;
+}
+
+.heading__title {
+	color: white;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.heading__button {
+	box-sizing: border-box;
+	width: 197px;
+	height: 66px;
+	margin: 5px 0 0 0;
+	border: none;
+	background: #E37F06;
+	color: white;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+.heading__comment {
+	margin: 5px 0 0 0;
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+/*content*/
+
+.content {
+	background: white;
+}
+
+.insights {
+	position: relative;
+	top: -55px;
+	height: 110px;
+	margin: 0px;
+	background: #0D3F96;
+}
+
+.insights a {
+	color: #5578B5;
+	font-size: 42px;
+}
+
+
+.information_main-title {
+	margin: -50px 0 0 0;
+	color: #182740;
+	font-size: 32px;
+	font-weight: 300;
+}
+
+.information_section-1:before {
+	height: 32px;
+	width: 32px;
+	content: '';
+	display: block;
+	float: left;
+	background: url(../coinzilla/icon-quality.png) no-repeat 50% 50%;
+	background-size: 32px auto;
+}
+
+.information_section-2:before {
+	height: 32px;
+	width: 32px;
+	content: '';
+	display: block;
+	float: left;
+	background: url(../coinzilla/icon-simple-pricing.png) no-repeat 50% 50%;
+	background-size: 32px auto;
+
+}
+
+.information_section-3:before {
+	height: 32px;
+	width: 32px;
+	content: '';
+	display: block;
+	float: left;
+	background: url(../coinzilla/icon-cpm-cpc.png) no-repeat 50% 50%;
+	background-size: 32px auto;
+}
+
+.information_section-4:before {
+	height: 32px;
+	width: 32px;
+	content: '';
+	display: block;
+	float: left;
+	background: url(../coinzilla/icon-formats-zones.png) no-repeat 50% 50%;
+	background-size: 32px auto;
+}
+
+.information_section-5:before {
+	height: 32px;
+	width: 32px;
+	content: '';
+	display: block;
+	float: left;
+	background: url(../coinzilla/icon-mobile-desktop.png) no-repeat 50% 50%;
+	background-size: 32px auto;
+}
+
+.information_section-6:before {
+	height: 32px;
+	width: 32px;
+	content: '';
+	display: block;
+	float: left;
+	background: url(../coinzilla/icon-website-targeting.png) no-repeat 50% 50%;
+	background-size: 32px auto;
+}
+
+.information_section-title {
+	padding-left: 40px;
+	font-size: 23px;
+	font-weight: 300;
+}
+
+.information_section-text {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.bottom-content {
+	position: relative;
+	top: 100px;
+}
+
+.bottom-content_button {
+	box-sizing: content-box;
+	height: 45px;
+	padding: 0 10px 0 10px;
+	border: none;
+	background: #E37F06;
+	color: white;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 300;	
+}
+
+.bottom-content__ad-1, .bottom-content__ad-2 {
+	position: relative;
+	margin: 25px 0 0 0;
+	padding: 15px 0 25px 0;
+	background: #0D3F96;
+	
+}
+
+.bottom-content__ad-1:after {
+	position: absolute;
+	content: ''; 
+    position: absolute;
+    right: -40px; top: 100px;
+    border: 20px solid transparent;
+    border-left: 20px solid #0D3F96;
+}
+
+.bottom-content__ad-2:before {
+	position: absolute;
+	content: ''; 
+    position: absolute;
+    left: -40px; top: 80px;
+    border: 20px solid transparent;
+    border-right: 20px solid #0D3F96;
+}
+
+
+.bottom-content_title {
+	margin: 15px 15px 15px 15px;
+	color: white;
+	font-size: 32px;
+	font-weight: 300;
+}
+
+.bottom-content__img {
+	height: 250px;
+	width: 100%;
+	content: '';
+	display: block;
+	float: left;
+	background: url(../coinzilla/coinzilla-join-us.png) no-repeat 50% 0%;
+	background-size: 245px auto;
+}
+
+/*Sticky Footer*/
+
+body { /*materialize style for Sticky Footer*/
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main { /*materialize style for Sticky Footer*/
+    flex: 1 0 auto;
+}
+
+/*Footer style*/
+
+footer {
+	background: #182740;
+}
+
+.footer__title {
+	margin: 100px 0 10px 0;
+	color: white;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.footer__title a {
+	margin: 0 15px 0 0;
+	color: white;
+}
+
+.footer-comment {
+	color: white;
+	font-size: 12px;
+}
+
+.footer-comment a {
+	color: white;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+@media only screen and (min-width: 1200px){
+html {
+    font-size: 14px;
+    font-weight: 300;
+}}
+
+@media only screen and (min-width: 992px){
+html {
+    font-size: 14px;
+    font-weight: 300;
+}}
+
+.footer_linked-text {
+	color: white;
+}
+
+.email-form {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	box-sizing: border-box;
+	height: 40px;
+	width: 90%;
+	padding: 0;
+	background: white;
+}
+
+input[type=email] {  /*cancel materialize style*/
+	background-color: white;
+    border: none;
+    border-bottom: none;
+    border-radius: 0;
+    outline: none;
+    height: 40px;
+    width: 80%;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0 0 0 10px;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: none;
+}
+
+input[type=email]:focus:not([readonly]) {  /*cancel materialize style*/
+	border-bottom: none;
+    box-shadow: none;
+}
+
+.email-form__button {
+	box-sizing: border-box;
+	width: 40px;
+	height: 30px;
+	margin: 5px 5px 0 0;
+	border: none;
+	background: #F7931A;
+	color: white;
+}

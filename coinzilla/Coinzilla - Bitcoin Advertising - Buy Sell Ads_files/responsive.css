@@ -1,0 +1,379 @@
+@media only screen and (min-device-width : 300px) and (max-device-width : 480px){
+
+    html, body {
+        overflow-x: hidden !important;
+    }
+
+    .container>.navbar-header {
+        margin: 0;
+    }
+
+    .col-centered {
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    .navbar-toggle {
+        margin: 17px 0 0 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #fff;
+        height: 3px;
+    }
+
+    header nav.left,
+    header nav.right {
+        float: none !important;
+    }
+
+    header nav.left a,
+    header nav.right a {
+        display: block;
+        text-align: center;
+    }
+
+    header nav.right {
+        padding-bottom: 10px;
+    }
+
+    .heading .mascot img {
+        display: none;
+    }
+
+    .header-wrapper .heading .item {
+        padding: 25px 15px;
+    }
+
+    .header-wrapper .heading .item .container {
+        width: 100%;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .heading a.button,
+    .heading a.button:link,
+    .heading a.button:active,
+    .heading a.button:visited {
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    section.insights .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    article.information {
+        padding: 0;
+    }
+
+    article.information .big-title {
+        font-size: 26px;
+    }
+
+    article.information .item {
+        padding: 15px;
+    }
+
+    section.join .mascot {
+        display: none;
+    }
+
+    section.join .box {
+        margin: 0 0 5px 0;
+    }
+
+    section.join .vertical-align {
+        height: 100%;
+        width: 100%;
+    }
+
+    section.join {
+        margin-bottom: 0;
+    }
+
+    section.join .box.right-bubble:after,
+    section.join .box.left-bubble:after {
+        display: none;
+    }
+
+    section.auth {
+        padding: 20px 0 0 0;
+
+    }
+
+    section.auth h1 {
+        font-size: 24px;
+    }
+
+    section.auth .panel {
+        padding: 25px 15px;
+        box-shadow: none;
+        margin-bottom: 0;
+    }
+
+    .button-style {
+        height: auto !important;
+        font-size: 15px;
+    }
+
+    section.insights .item .number {
+        font-size: 28px;
+    }
+
+    section.auth .content .traffic-estimation {
+        text-align: center;
+    }
+
+    article.information .item.vertical-align {
+        height: auto;
+    }
+
+    article.information .item.vertical-align h2 {
+        text-align: center;
+    }
+
+    article.information .call-to-action a.button-style {
+        text-align: center;
+    }
+
+    .call-to-action {
+        text-align: center;
+    }
+
+    header nav a.dotted:before {
+        content: none;
+    }
+
+    .background {
+        display: none;
+    }
+
+    section.header-wrapper {
+        padding-bottom: 0;
+    }
+
+    section.insights {
+        margin-top: 20px;
+    }
+
+    section.auth .container-auth {
+        padding: 15px;
+    }
+
+    article.information .icon {
+        margin-top: 30px;
+    }
+
+    article.information .item h2 {
+        padding-left: 50px;
+    }
+
+    .top-padding {
+        padding-top: 0;
+    }
+
+    section.contact .center-block {
+        width: 100%;
+    }
+
+    section.contact .panel {
+        margin: 0;
+        padding: 15px;
+    }
+
+    article.faq .question {
+        line-height: 30px;
+    }
+
+    .xs-text-center {
+        text-align: center;
+    }
+
+    .xs-text-left {
+        text-align: left;
+    }
+
+}
+
+@media only screen and (min-width : 481px) and (max-width: 767px) {
+
+    html, body {
+        overflow-x: hidden !important;
+    }
+
+    .container>.navbar-header {
+        margin: 0;
+    }
+
+    .col-centered {
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    header nav a.dotted:before {
+        content: none;
+    }
+
+    .navbar-toggle {
+        margin: 17px 0 0 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #fff;
+        height: 3px;
+    }
+
+    header nav.left,
+    header nav.right {
+        float: none !important;
+    }
+
+    header nav.left a,
+    header nav.right a {
+        display: block;
+        text-align: center;
+    }
+
+    header nav.right {
+        padding-bottom: 10px;
+    }
+
+    .heading .mascot img {
+        display: none;
+    }
+
+    .header-wrapper .heading {
+        margin-top: 0;
+    }
+
+    .col-centered {
+        margin: auto;
+        margin-bottom: 2px;
+        display: block;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    article.information {
+        padding: 0;
+    }
+
+    .two-cols {
+        width: 50%;
+        float: left;
+    }
+
+    section.join .mascot {
+        display: none;
+    }
+
+    .background {
+        display: none;
+    }
+
+    section.join .box.right-bubble:after,
+    section.join .box.left-bubble:after {
+        display: none;
+    }
+
+    section.join .vertical-align {
+        display: block;
+        height: auto;
+    }
+
+    section.join {
+        margin-bottom: 0;
+    }
+
+    footer.main-footer .col-md-3 {
+        width: 48%;
+        float: left;
+        height: 130px;
+        text-align: center;
+    }
+
+    .xs-text-center {
+        text-align: center;
+    }
+
+    .xs-text-left {
+        text-align: left;
+    }
+
+    .top-padding {
+        padding-top: 0;
+    }
+
+    section.header-wrapper {
+        padding-bottom: 0;
+    }
+
+    .xs-padding-bottom {
+        padding-bottom: 80px !important;
+    }
+
+    section.contact .center-block {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    html, body {
+        overflow-x: hidden !important;
+    }
+
+    .heading .mascot {
+        display: none;
+    }
+
+    section.join .box.right-bubble:after,
+    section.join .box.left-bubble:after {
+        display: none;
+    }
+
+    .top-padding {
+        padding-top: 0;
+    }
+
+    section.contact .center-block {
+        width: 100%;
+    }
+
+    .sm-text-center {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+    html, body {
+        overflow-x: hidden !important;
+    }
+
+    .heading .mascot {
+        display: none;
+    }
+
+    section.insights .col-md-3 {
+        width: 26%;
+    }
+
+    section.contact .center-block {
+        width: 100%;
+    }
+
+}
